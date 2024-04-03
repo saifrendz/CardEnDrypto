@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Encryption</title>
+</head>
+<body>
+    <h1>Credit Card Encryption</h1>
+    <form action="/encrypt" method="post">
+        <label for="credit_card_number">Enter Credit Card Number:</label>
+        <input type="text" id="credit_card_number" name="credit_card_number">
+        <input type="submit" value="Encrypt">
+    </form>
+
+    <h2>Decrypt Credit Card</h2>
+    <form action="/decrypt" method="post">
+        <label for="index">Enter Index:</label>
+        <input type="text" id="index" name="index">
+        <input type="submit" value="Decrypt">
+    </form>
+</body>
+</html>
