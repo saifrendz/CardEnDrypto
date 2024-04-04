@@ -44,7 +44,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/credit-card-encryption.git
+    git clone https://github.com/saifrendz/CardEnDrypto.git
     ```
 
 2. Navigate to the project directory:
